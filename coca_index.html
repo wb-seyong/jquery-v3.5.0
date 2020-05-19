@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코카-콜라 : 리뉴얼ver.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+       $(function(){
+           $("#intro>p").animate({
+               fontSize:"25px"
+           },1000,"linear");
+       })
+    </script>
+</head>
+<body>
+    <section id="intro">
+        <a href="#"><img src="image/logo.png" alt="logo"></a>
+        <p>옆으로 당겨보세요!</p>
+    </section>
+    <header>
+        <div id="gnb">
+            <ul class="nav">
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">코-크 스토리</a></li>
+                <li><a href="#">라이프</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">비디오</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <ul>
+            <li><img src="image/co.jpg"></li>
+            <li><img src="image/co1.jpeg"></li>
+            <li><img src="image/co2.jpg"></li>
+        </ul>
+    </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font:16px;
+    color:#000;
+    text-decoration: inherit;
+}
+a,a:link {
+    text-decoration: none;
+}
+
+#intro {
+    background:red;
+    width:100%;
+    height:883px;
+    position:relative;
+}
+#intro img {
+    width:400px;
+    height:100px;
+    margin:0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#intro p {
+    font-size:20px;
+    width:180px;
+    height:883px;
+    line-height: 883px;
+    background:#fff;
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:center;
+
+}
+header {
+    display:none;
+}
+main {
+    display:none;
+}
